@@ -1,3 +1,7 @@
 /*.suo
 /src/config/sites.json
 /CodeDrop.sln.ide
+/src/MSGooroo.CodeDrop.App/bin
+/src/MSGooroo.CodeDrop.App/obj
+/src/MSGooroo.CodeDrop.Core/obj
+/src/MSGooroo.CodeDrop.Core/bin
