@@ -38,7 +38,12 @@ namespace MSGooroo.CodeDrop {
 					Deployer.DeployVNext(site, rev, log);
 				} else {
 					if (Builder.Build(site, log)) {
-						Deployer.DeployClassic(site, rev, log);
+						log.WriteMessage("Build succeeded, deploying classic site");
+						if (Deployer.DeployClassic(site, rev, log)) {
+							log.WriteMessage("Deployment Successful!");
+						}
+					} else {
+						log.WriteMessage("Build failed");
 					}
 				}
 			} else {
