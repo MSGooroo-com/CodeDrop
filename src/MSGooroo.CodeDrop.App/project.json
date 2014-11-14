@@ -1,0 +1,8 @@
+﻿{
+    "dependencies": {
+        "MSGooroo.CodeDrop.Core":  ""
+    },
+    "frameworks": {
+        "aspnet50": { }
+    }
+}

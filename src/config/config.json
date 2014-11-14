@@ -1,0 +1,7 @@
+﻿{
+    "GitPath": "C:\\Program Files (x86)\\Git\\bin",
+    "BuildExecutable": "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\MSBuild.exe",
+    "KRuntimePackages": "C:\\src\\Packages",
+    "KVersion": "1.0.0-beta2",
+    "KRuntime": "KRE-svr50-x86"
+}
