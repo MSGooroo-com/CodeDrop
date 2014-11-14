@@ -49,7 +49,7 @@ namespace MSGooroo.CodeDrop {
 			} else {
 				log.WriteMessage(string.Format("{0}: Build> Completed successfully.", config.Name));
 			}
-			return hasError;
+			return !hasError;
 		}
 
 
